@@ -11,7 +11,7 @@ public class DataTransferCorn {
 
     private final DataTransferService dataTransferService;
 
-    @Scheduled(fixedDelay = 50000000)
+    @Scheduled(fixedDelay = 5000)
     public void run(){
 //        System.out.println("test");
         dataTransferService.transferData();
